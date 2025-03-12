@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Resources</title>
+    <style>
+        body {
+            background-color: #0a1929;
+            color: #cccccc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            gap: 20px;
+        }
+        .category {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+        .category-title {
+            color: #a6b76f;
+            font-size: 18px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .link {
+            display: block;
+            color: #cccccc;
+            text-decoration: none;
+            padding: 8px 0;
+            text-align: center;
+            transition: color 0.3s;
+        }
+        .link:hover {
+            color: #ffffff;
+        }
+        .search-box {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 30px 0;
+            background-color: transparent;
+            border: 1px solid #444;
+            color: #cccccc;
+            font-size: 16px;
+            outline: none;
+        }
+        .search-box:focus {
+            border-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="category">
+            <div class="category-title">School</div>
+            <a href="http://www.sjw.bham.sch.uk/" class="link">SJW School Website</a>
+            <a href="https://outlook.office365.com/owa/?realm=sjw.bham.sch.uk" class="link">Office 365</a>
+            <a href="https://sjwcs.sharepoint.com/sites/sjw-Home" class="link">SJW SharePoint</a>
+            <a href="https://hap.sjw.bham.sch.uk/hap/" class="link">HAP Portal</a>
+            <a href="https://www.classcharts.com/" class="link">Class Charts</a>
+            <a href="https://cloud.bromcom.com/" class="link">Bromcom</a>
+            <a href="https://www.cpdgenie.com/" class="link">CPD Genie</a>
+            <a href="https://www.myconcern.co.uk/" class="link">MyConcern</a>
+            <a href="https://sjwcs.sharepoint.com/sites/IThelpdesk" class="link">IT Helpdesk</a>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Math</div>
+            <a href="https://www.sparxmaths.uk/" class="link">Sparx Maths</a>
+            <a href="https://app.mangahigh.com/school/38242" class="link">Manga High</a>
+            <a href="https://uk.ixl.com/" class="link">IXL</a>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Learning</div>
+            <a href="https://www.kerboodle.com/users/login" class="link">Kerboodle</a>
+            <a href="https://www.pearsonactivelearn.com/app/library" class="link">Pearson Active Learn</a>
+            <a href="https://senecalearning.com/en-GB/" class="link">Seneca Learning</a>
+            <a href="https://global-zone61.renaissance-go.com/welcomeportal/2232811" class="link">Accelerated Reader</a>
+            <a href="https://members.gcsepod.com/podauth/login" class="link">GCSE Pod</a>
+            <a href="https://www.focuselearning.co.uk/u/3376/CoqmaAxydmEApyCzgrEjuwndcreAngbju" class="link">Focus eLearning</a>
+            <a href="https://www.testwise.com/platform/code" class="link">Testwise</a>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Library</div>
+            <a href="http://u002249.microlibrarian.net/enethosted.aspx?hosted=1" class="link">School Library</a>
+            <a href="http://www.lexiacore5.com/?SiteID=8585-4784-2016-5486" class="link">Lexia Core 5</a>
+            <a href="https://www.lexiapowerup.com/" class="link">Lexia Power Up</a>
+            <a href="https://www.literacyassessment.co.uk/reading/test#" class="link">Literacy Assessment</a>
+            <a href="https://app.bedrocklearning.org/" class="link">Bedrock Learning</a>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Language</div>
+            <a href="https://web.flashacademy.com/" class="link">Flash Academy</a>
+            <a href="https://www.learningvillage.net/" class="link">Learning Village</a>
+            <a href="http://www.wikipedia.com" class="link">Wikipedia</a>
+            <a href="https://www.google.com" class="link">Google</a>
+        </div>
+        
+        <div class="category">
+            <div class="category-title">Music</div>
+            <a href="http://freemusicarchive.org/curator/Video/" class="link">Free Music Archive</a>
+            <a href="https://www.bensound.com/royalty-free-music" class="link">Bensound</a>
+            <a href="http://dig.ccmixter.org/film" class="link">CC Mixter</a>
+            <a href="https://incompetech.com/music/" class="link">Incompetech</a>
+        </div>
+    </div>
+    
+    <input type="text" class="search-box" placeholder="search">
+</body>
+</html>
